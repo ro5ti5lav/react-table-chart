@@ -1,0 +1,47 @@
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    /* Шрифт для таблицы */
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    /* Жирный шрифт для заголовков */
+}
+
+.custom-table tr:hover {
+    background-color: #f5f5f5;
+    /* Цвет при наведении */
+}
+
+.custom-table .left-align {
+    text-align: left;
+    /* Выровнять текст по левому краю */
+}
+
+.custom-table .center-align {
+    text-align: center;
+    /* Выровнять текст по центру */
+}
+
+.positive .center-align {
+    background-color: #d4edda !important;
+    /* Светло-зеленый для положительных изменений */
+    color: #155724 !important;
+    /* Темно-зеленый текст */
+}
+
+.negative .center-align {
+    background-color: #f8d7da !important;
+    /* Светло-красный для отрицательных изменений */
+    color: #721c24 !important;
+    /* Темно-красный текст */
+}
